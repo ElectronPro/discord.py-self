@@ -60,7 +60,7 @@ extras_require = {
 }
 
 setup(
-    name='discord.py-self' if prefix == 'discord' else f'{prefix}.py',
+    name='discordself' if prefix == 'discordself' else f'{prefix}.py',
     author='Dolfies',
     url='https://github.com/dolfies/discord.py-self',
     project_urls={
